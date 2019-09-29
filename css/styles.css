@@ -72,7 +72,7 @@ a {
 
 /* section 1 */
 
-.section-1 {
+.section-1, .section-2 {
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -113,3 +113,41 @@ a {
     background-image: linear-gradient(to right, hsl(176, 68%, 64%) ,hsl(198, 60%, 50%));
 }
 
+
+/* Section-2 */
+
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.section-2__content {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.section-2__content__img {
+    height: 6rem;
+}
+
+.section-2__content__img img {
+    height: 100%;
+}
+
+.paragraph {
+    line-height: 1.8rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+.section-2__content h3 {
+    margin-top: 3rem;
+}
+.section-2__content p {
+    margin-top: 1rem;
+}
